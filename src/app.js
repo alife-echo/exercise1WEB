@@ -1,4 +1,6 @@
+import lodash from 'lodash'
 const arrayManipulation = () =>{
-console.log(array.findIndex)
+const numbers = [3, 4, 1, 2, 5];
+console.log(lodash.sortBy(numbers))
 }
 arrayManipulation()
